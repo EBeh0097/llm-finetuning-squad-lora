@@ -3,7 +3,7 @@
 Parameter-efficient fine-tuning of a Falcon language model on SQuAD-style question answering using Hugging Face Transformers, PEFT/LoRA, and LangChain inference.
 
 ## Why this project matters
-This repository demonstrates practical Generative AI engineering skills that recruiters can review quickly: model integration, agent workflows, prompt engineering, data preprocessing, tool use, and reproducible notebook-based experimentation.
+This repository demonstrates practical Generative AI engineering: model integration, agent workflows, prompt engineering, data preprocessing, tool use, and reproducible notebook-based experimentation.
 
 ## Skills shown
 - Hugging Face Transformers model loading and tokenization
@@ -28,13 +28,6 @@ This repository demonstrates practical Generative AI engineering skills that rec
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-```
-
-## Environment variables
-Create a `.env` file or export the following variables before running the notebook:
-
-```bash
-# No API key required for dataset preparation/training. GPU recommended.
 ```
 
 ## How to run
