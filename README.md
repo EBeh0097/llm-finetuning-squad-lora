@@ -5,7 +5,7 @@ Parameter-efficient fine-tuning of a Falcon language model on SQuAD-style questi
 ## Why this project matters
 This repository demonstrates practical Generative AI engineering skills that recruiters can review quickly: model integration, agent workflows, prompt engineering, data preprocessing, tool use, and reproducible notebook-based experimentation.
 
-## Recruiter-ready skills shown
+## Skills shown
 - Hugging Face Transformers model loading and tokenization
 - PEFT/LoRA fine-tuning for causal language models
 - SQuAD dataset preprocessing for instruction-style QA
@@ -42,12 +42,3 @@ Create a `.env` file or export the following variables before running the notebo
 2. Install dependencies from `requirements.txt`.
 3. Add required API keys as environment variables, never directly inside the notebook.
 4. Run cells from top to bottom.
-
-## Resume bullet
-> Fine-tuned a Falcon 1B language model for SQuAD-style question answering using PEFT/LoRA, Hugging Face Trainer, custom preprocessing, evaluation loss, perplexity, and LangChain inference.
-
-## Suggested GitHub topics
-`generative-ai`, `llm`, `langchain`, `agents`, `python`, `machine-learning`, `health-ai`, `portfolio-project`
-
-## Notes
-The notebook version in this repository has been cleaned for public GitHub use. Secrets and hard-coded API keys were removed and replaced with environment-variable loading.
