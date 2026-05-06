@@ -1,37 +1,38 @@
-# LLM Fine-Tuning with SQuAD and LoRA
+# LLM Fine-Tuning with SQuAD + LoRA
 
-Parameter-efficient fine-tuning of a Falcon language model on SQuAD-style question answering using Hugging Face Transformers, PEFT/LoRA, and LangChain inference.
+## Project Overview
 
-## Why this project matters
-This repository demonstrates practical Generative AI engineering: model integration, agent workflows, prompt engineering, data preprocessing, tool use, and reproducible notebook-based experimentation.
+A Large Language Model (LLM) fine-tuning project demonstrating parameter-efficient adaptation of transformer models using the SQuAD dataset for intelligent question answering applications.
 
-## Skills shown
-- Hugging Face Transformers model loading and tokenization
-- PEFT/LoRA fine-tuning for causal language models
-- SQuAD dataset preprocessing for instruction-style QA
-- Trainer-based evaluation with loss and perplexity
-- LangChain + Hugging Face pipeline integration
+This project showcases:
+- LLM fine-tuning
+- Parameter-efficient training (LoRA)
+- Transformer architectures
+- NLP model optimization
+- Question answering systems
 
-## Project structure
-```text
-.
-├── notebooks/
-│   └── llm_fine-tuning_with_squad_and_lora.ipynb
-├── requirements.txt
-├── .env.example
-├── .gitignore
-└── README.md
-```
+## Technical Skills Demonstrated
 
-## Setup
-```bash
-python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-```
+### Generative AI & NLP Engineering
+- Large Language Models (LLMs)
+- Transformer Fine-Tuning
+- Prompt Engineering
+- NLP Pipelines
+- AI Model Evaluation
 
-## How to run
-1. Open the notebook in Jupyter, VS Code, or Google Colab.
-2. Install dependencies from `requirements.txt`.
-3. Add required API keys as environment variables, never directly inside the notebook.
-4. Run cells from top to bottom.
+### AI Frameworks & Libraries
+- Hugging Face Transformers
+- PyTorch
+- PEFT / LoRA
+- Dataset Engineering
+
+## Business Applications
+- Healthcare Question Answering
+- Enterprise AI Assistants
+- Clinical Knowledge Retrieval
+- Automated Document Intelligence
+
+## Author
+
+Emmanuel Ebeh  
+Health Data Scientist | AI Engineer | Generative AI Researcher
